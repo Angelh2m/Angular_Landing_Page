@@ -5,13 +5,15 @@ import { HOMEPAGE_ROUTES } from './homepage.router';
 
 import { InformationComponent } from './information/information.component';
 import { GridComponent } from './grid/grid.component';
+import { AboutSectionComponent } from './about-section/about-section.component';
 
 
 @NgModule({
   declarations: [
     MainPageComponent,
     InformationComponent,
-    GridComponent
+    GridComponent,
+    AboutSectionComponent
   ],
   imports: [
     CommonModule,

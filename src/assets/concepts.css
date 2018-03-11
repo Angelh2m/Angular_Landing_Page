@@ -1,0 +1,47 @@
+/* cssCONCEPTS */
+
+/* Set the root font to 16px in % */
+/* .625 * 15 = 10px */
+html {
+  font-size: 62.5%;
+}
+
+/* Box sizing */
+
+body {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
+
+/* animation-fill-mode: backwards; */
+.btn-animated {
+  animation: moveInBottom 0.5s ease-out 0.75s;
+  animation-fill-mode: backwards;
+}
+
+/* Gradients  */
+/* Clip parts */
+
+.header {
+  height: 95vh;
+  background-image: linear-gradient(
+      to right,
+      rgba(126, 213, 111, 0.8),
+      rgba(40, 180, 133, 0.8)
+    ),
+    url("./assets/img/hero.jpg");
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+}
+
+/* backface-visibility:  */
+.heading-primary {
+  text-transform: uppercase;
+  color: white;
+  backface-visibility: hidden;
+  margin-bottom: 60px;
+}

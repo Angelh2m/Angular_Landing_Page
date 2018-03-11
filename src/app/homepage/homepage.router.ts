@@ -1,11 +1,12 @@
 import { RouterModule, Routes, CanActivate } from '@angular/router';
 import { HomepageComponent } from './homepage.component';
-import { HeaderComponent } from './header/header.component';
+import { MainPageComponent } from './main-page/main-page.component';
+
 
 const homePageRoutes: Routes = [
   {
     path: '',
-    component: HeaderComponent,
+    component: MainPageComponent,
     data: {title: 'Landing Page'}
   }
 ];

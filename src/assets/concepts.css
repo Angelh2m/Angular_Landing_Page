@@ -45,3 +45,8 @@ body {
   backface-visibility: hidden;
   margin-bottom: 60px;
 }
+
+/* NOT last child */
+&:not(:last-child) {
+  margin-bottom: $gutter-vertical;
+}

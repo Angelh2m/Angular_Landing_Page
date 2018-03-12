@@ -65,3 +65,10 @@ color: transparent;
 & > * {
   transform: skewY(7deg);
 }
+
+/* PRESPECTIVE  ROTATING CARDS*/
+perspective: 150rem;
+-moz-perspective: 150rem;
+
+/* Line break respects the padding  */
+box-decoration-break: clone;
